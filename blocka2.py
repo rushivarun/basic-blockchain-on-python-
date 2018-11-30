@@ -97,7 +97,7 @@ def isvalid():
     return jsonify(response)
 
 
-app.run(host = '', port = 5000, debug = True)
+app.run(host = '', port = 5000)
 
 
     
